@@ -193,16 +193,16 @@
             <form>
                 
                     <label for="fName"><strong>First Name</strong>:</label><br />
-                    <input type="text" id="fname" name="firstName" placeholder="Enter first name here..." required /><br />
+                    <input type="text" id="fname" name="firstName" placeholder="Enter first name here..." minlength="4", maxlength="20" required /><br />
                     <label for="lName"><strong>Last Name</strong>:</label>
-                    <input type="text" id="lName" name="lastName" placeholder="Enter last name here.." required /><br />
+                    <input type="text" id="lName" name="lastName" placeholder="Enter last name here.." minlength="4", maxlength="20" required /><br />
                      <labe for="email"><strong>Email Address</strong>:</labe>
-                    <input type="text" id="email" name="Email" placeholder="username@choice.com" required/><br />
+                    <input type="email" id="email" name="Email" placeholder="username@choice.com" required/><br />
                     <label for="title"><strong>Title Name</strong>:</label>
                     <input type="text" id="title" name="title" placeholder="Front End developer" /><br /><br />
                     <!--Please, drop a message here:-->
                     <label for="msg"><strong>Message</strong>:</label>
-                    <textarea  type="text" id="msg" name="message" rows="10" cols="30" placeholder="Please, add some text here" required></textarea> <br /><br />
+                    <textarea  type="text" id="msg" name="message" rows="10" cols="30" placeholder="Please, add some text here" minlength="20", maxlength="400" required></textarea> <br /><br />
                     <input type="submit" name="Submit" /><br />
     
                 
